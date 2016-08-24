@@ -3,14 +3,14 @@
 
 name:                yalci
 version:             0.1.0.0
-synopsis:            Yet another lambda calucus implementation.
--- description:         
+synopsis:            Yet another lambda calculus implementation.
+-- description:
 homepage:            https://github.com/theolaurent/yalci
 license:             MIT
 license-file:        LICENSE
 author:              Theo Laurent
 maintainer:          theo.laurent@ens.fr
--- copyright:           
+-- copyright:
 category:            Language
 build-type:          Simple
 extra-source-files:  README.md
@@ -18,7 +18,7 @@ cabal-version:       >=1.10
 
 executable yalci
   main-is:             Main.hs
-  -- other-modules:       
+  -- other-modules:
   other-extensions:    DeriveFunctor, DeriveTraversable
   build-depends:       base >=4.9 && <4.10, parsec >=3.1 && <3.2, containers >=0.5 && <0.6
   hs-source-dirs:      src
